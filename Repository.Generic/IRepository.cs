@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Repository.Generic
+namespace Repository.Generic.Interfaces
 {
     public interface IRepository<T> where T : class
     {
